@@ -1,0 +1,42 @@
+{
+  "identifier": "storekit_config",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_locale": "en_US"
+  },
+  "subscriptionGroups": [
+    {
+      "id": "SUBGROUP1",
+      "localizations": [],
+      "name": "Creditwatch Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "SUB1",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "See your percentage complete toward each requirement bucket.",
+              "displayName": "Degree Progress",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "com.shimondeitel.creditwatch.pro.monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "Creditwatch Pro Monthly",
+          "subscriptionGroupID": "SUBGROUP1",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
